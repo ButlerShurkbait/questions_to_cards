@@ -16,8 +16,8 @@ import os
 # TODO: Write README file?
 # TODO: Replace tabs with 4 spaces?
 
-#SAMPLE_TOSSUP = json.loads("")
-#SAMPLE_BONUS = json.loads("")
+#SAMPLE_TOSSUP = json.loads("{"_id": {"$oid": "0"}, "question": "tossup body.", "answer": "answer", "subcategory": "sample_subcat", "category": "sample_category", "packet": {"_id": {"$oid": "0"}, "name": "1", "number": {"$numberInt": "1"}}, "set": {"_id": {"$oid": "0"}, "name": "1970 Sample Packet", "year": {"$numberInt": "1970"}, "standard": true}, "createdAt": {"$date": {"$numberLong": "0"}}, "updatedAt": {"$date": {"$numberLong": "0"}}, "difficulty": {"$numberInt": "1"}, "number": {"$numberInt": "1"}, "answer_sanitized": "answer", "question_sanitized": "tossup body."}")
+#SAMPLE_BONUS = json.loads("{"_id":{"$oid":"0"},"leadin":"leadin","answers":["answer1","answer2","answer3"],"parts":["bonus part 1","bonus part 2","bonus part 3"],"subcategory":"sample_subcat","category":"sample_category","packet":{"_id":{"$oid":"0"},"name":"1","number":{"$numberInt":"1"}},"set":{"_id":{"$oid":"0"},"name":"1970 Sample Packet","year":{"$numberInt":"2000"},"standard":true},"createdAt":{"$date":{"$numberLong":"0"}},"updatedAt":{"$date":{"$numberLong":"0"}},"difficulty":{"$numberInt":"1"},"values":[{"$numberInt":"10"},{"$numberInt":"10"},{"$numberInt":"10"}],"alternate_subcategory":"sample_alternate_subcat","number":{"$numberInt":"1"},"answers_sanitized":["answer1","answer2","answer3"],"leadin_sanitized":"leadin","parts_sanitized":["bonus part 1","bonus part 2","bonus part 3"]}")
 
 
 def intake():
