@@ -329,4 +329,4 @@ def run(normalize_len=True, write_to_file=True):
     return clues
 
 if __name__ == "__main__":
-    run(write_to_file=False)
+    run(write_to_file=True)

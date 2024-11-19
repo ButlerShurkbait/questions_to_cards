@@ -10,6 +10,8 @@ import spacy
 import batch_jaro_winkler as bjw # by Dominik Bousquet, https://github.com/dbousque/batch_jaro_winkler
 from dynamic_threshes import ans_thresh_hashtable, dynamic_clue_thresh
 
+spacy.require_cpu()
+
 nlp = spacy.load("en_core_web_sm", exclude=["parser", "ner"])
 
 CLUES_FILEPATH = 'test_output/clues_2023512-104755.csv'
